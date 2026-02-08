@@ -3,7 +3,7 @@
 An official name for this system is still a work in progress <br>
 No Working Product as of the moment, you can only use the system via a compiler of your choice
 
-# CONVINIENCE-STORE-1.0: OVERVIEW:
+# CONVENIENCE-STORE-1.0: OVERVIEW:
 A simple work-in-progress Java Convinience Store system
 
 # OBJECTIVES OF THIS PROJECT:
