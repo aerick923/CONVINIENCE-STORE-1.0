@@ -16,6 +16,13 @@ package com.mycompany.convenience.store_1;
 // variable
 // user input
 
+// FEBRUARY 11, 2026:
+// FEATURES ADDED:
+// switch
+
+// ERROR/S FIXED: parsing error
+// SOLUTION: watched a youtube tutorial regarding curly bracket placements
+
 import java.util.Scanner;
 
 public class CONVENIENCESTORE_1 
@@ -33,5 +40,29 @@ public class CONVENIENCESTORE_1
         System.out.println("[4] EXIT PROGRAM");
         System.out.println("ENTER YOUR CHOICE: ");
         choice = myObj.nextInt();
+        
+            switch (choice)
+            {
+            case 1:
+                System.out.println("===== CREATE ACCOUNT =====");
+                break; 
+            
+            case 2:
+                System.out.println("===== MENU =====");
+                break; 
+                
+            case 3:
+                System.out.println("===== ATM =====");
+                break; 
+                
+            case 4:
+                System.out.println("THANK YOU FOR USING THE CONVENIENCE STORE");
+                break;
+                
+                default:
+                System.out.println("Looking forward to the Weekend");
+           }      
+    
     }
+        
 }
