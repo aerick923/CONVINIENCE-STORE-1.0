@@ -23,11 +23,17 @@ package com.mycompany.convenience.store_1;
 // ERROR/S FIXED: parsing error
 // SOLUTION: watched a youtube tutorial regarding curly bracket placements
 
+// FEBRUARY 12, 2026:
+// FEATURES ADDED: 
+// input statements under case 1
+
+// FEATURES CHANGED:
+//
+
 import java.util.Scanner;
 
 public class CONVENIENCESTORE_1 
 {
-
     public static void main(String[] args) 
     {
         Scanner myObj = new Scanner(System.in);
@@ -45,6 +51,9 @@ public class CONVENIENCESTORE_1
             {
             case 1:
                 System.out.println("===== CREATE ACCOUNT =====");
+                System.out.println("[1] ENTER NAME: ");
+                System.out.println("[2] ENTER GENDER (M/F/OTHER): ");
+                System.out.println("[3] ENTER AGE: ");             
                 break; 
             
             case 2:
@@ -61,8 +70,6 @@ public class CONVENIENCESTORE_1
                 
                 default:
                 System.out.println("Looking forward to the Weekend");
-           }      
-    
-    }
-        
+           }          
+    }     
 }
