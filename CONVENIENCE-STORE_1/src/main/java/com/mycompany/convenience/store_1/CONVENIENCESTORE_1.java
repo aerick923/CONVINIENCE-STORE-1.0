@@ -26,6 +26,8 @@ package com.mycompany.convenience.store_1;
 // FEBRUARY 12, 2026:
 // FEATURES ADDED: 
 // input statements under case 1
+// input statements under case 2
+// farewell message to customer when exiting the program
 
 // FEATURES CHANGED:
 //
@@ -58,6 +60,8 @@ public class CONVENIENCESTORE_1
             
             case 2:
                 System.out.println("===== MENU =====");
+                System.out.println("[1] CHECK STOCK: "); 
+                System.out.println("[2] PICK MENU: ");                
                 break; 
                 
             case 3:
@@ -65,7 +69,7 @@ public class CONVENIENCESTORE_1
                 break; 
                 
             case 4:
-                System.out.println("THANK YOU FOR USING THE CONVENIENCE STORE");
+                System.out.println("THANK YOU FOR USING THE CONVENIENCE STORE! PLEASE VISIT US AGAIN!");
                 break;
                 
                 default:
